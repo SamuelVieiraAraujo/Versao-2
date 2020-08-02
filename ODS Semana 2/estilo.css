@@ -1,0 +1,101 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo{
+    width: 92px;
+    position: absolute;
+    top: 5px;
+    margin-left: 5%;
+}
+
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+
+li{
+    float: left;
+    padding: 20 10 20 10;
+}
+
+li:hover{
+    background-color: #01AAEA;
+}
+
+#Imagem_fundo {
+    background: url("img/fundo1.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#título{
+    color:white;
+    padding-top: 20%;
+    font-size: 60px;
+    line-height: 0.6;
+}
+#subtítulo{
+    color:white;
+    padding-left: 20%;
+    padding-right: 20%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px black;
+}
+#acao{
+    color:white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px;
+}
+.Icone{
+    width: 125px;
+}
+#projeto{
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+#metas{
+    padding: 20px;
+}
+.imeco{
+    width: 70%;
+    height: 15%;
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois{
+    width: 40%;
+}
+.quatro{
+    width: 15%;
+}
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+}
+#sobre{
+    width: 100%;
+}
+footer{
+    background-color: #01AAEA;
+    float: left;
+    width: 100%;
+    height: 20%;
+    color: white;
+}
